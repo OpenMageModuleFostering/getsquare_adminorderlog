@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Getsquare_AdminOrderLog</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/OSL-3.0">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A Magento extension which helps businesses identify which user processed a Backend (Admin) order.</summary>
+    <description>This small but handy extension logs the username against a Backend (Admin) processed order and displays this in the order grid.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>GetSquare</name><user>GetSquare</user><email>online@getsquare.co.uk</email></author></authors>
+    <date>2014-08-25</date>
+    <time>19:22:21</time>
+    <contents><target name="magecommunity"><dir name="Getsquare"><dir name="AdminOrderLog"><dir name="Helper"><file name="Data.php" hash="fe12a47ca911a02f051438aa29fd2d4b"/></dir><dir name="Model"><file name="Entry.php" hash="e48a119d02c3e2e51d6081723794b9f1"/><file name="Observer.php" hash="38936cc2add2b4a137aea66e961e35be"/><dir name="Resource"><dir name="Entry"><file name="Collection.php" hash="3debbf0b9c1fc780b676b738c39cf202"/></dir><file name="Entry.php" hash="f8716af596fecfdadbb12193e9e6053f"/></dir></dir><dir name="etc"><file name="config.xml" hash="38255cca8c63d01a3e88cf0a76cce2e0"/></dir><dir name="sql"><dir name="getsquare_admin_order_log_setup"><file name="install-0.1.0.php" hash="95e1ce9b74598e0bd7d5590c3c17a6c2"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Getsquare_AdminOrderLog.xml" hash="bc6bf29ec10d47f9a0d8cb2cff5e31d2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

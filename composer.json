@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Getsquare_AdminOrderLog",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "",
+    "description": "A Magento extension which helps businesses identify which user processed a Backend (Admin) order.",
+    "authors": [
+    {
+        "name": "GetSquare",
+        "email": "online@getsquare.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
