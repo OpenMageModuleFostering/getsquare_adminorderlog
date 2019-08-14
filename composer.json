@@ -6,8 +6,8 @@
     "description": "A Magento extension which helps businesses identify which user processed a Backend (Admin) order.",
     "authors": [
     {
-        "name": "GetSquare",
-        "email": "online@getsquare.co.uk"
+        "name": "GetCommerce",
+        "email": "online@getcommerce.com"
     }
 ],
     "suggest": {
